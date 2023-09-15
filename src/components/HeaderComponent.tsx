@@ -11,14 +11,10 @@ const HeaderComponent = () => {
         <div>home 🏠</div>
       </Link>
       <Link href="/github">
-        <div className="text-gray-700 hover:text-white hover:underline">
-          github 💻
-        </div>
+        <div className="text-black hover:text-gray-700">github 💻</div>
       </Link>
       <Link href="blog">
-        <div className="text-gray-700 hover:text-white hover:underline">
-          blog ✍️
-        </div>
+        <div className="text-black hover:text-gray-700">blog ✍️</div>
       </Link>
     </div>
   );
